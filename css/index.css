@@ -67,18 +67,50 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.Topnav a {
-	color: black;
-	margin: 2%	
+.Top a {
+    color: black;
+    margin:3%;
+
 }
 
 .logo {
     display: flex;
-    justify-items: flex-end;
+    justify-content: flex-end;
+
 }
 
-.section-1 {
+h1 {
     border: 2px solid red;
-    
+    width: 30%;
+    font-size: medium;
 
+}
+
+.globe {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.textone {
+    border: 2px solid blue;
+
+}
+.texttwo {
+    border: 2px solid green;
+
+}
+
+footer {
+    border: 2px solid purple;
+}
+
+.middle-img {
+    border: 2px solid pink;
+    padding: 4px;
+}
+
+.logo {
+    border: 2px solid black;
+    padding: 4px;
+    
 }
