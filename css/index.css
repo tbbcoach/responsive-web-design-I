@@ -66,6 +66,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.Top {
+    display: flex;
+    justify-items: flex-end;
+
+}
 
 .Top a {
     color: black;
@@ -74,43 +79,33 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
-    display: flex;
-    justify-content: flex-end;
-
-}
-
-h1 {
-    border: 2px solid red;
-    width: 30%;
-    font-size: medium;
-
+    
 }
 
 .globe {
     display: flex;
-    justify-content: flex-end;
+    justify-items: flex-end;
+}
+
+h1 {
+    display: flex;
+    justify-items: flex-start;
 }
 
 .textone {
-    border: 2px solid blue;
+    display: flex;
+    justify-content: stretch;
 
-}
-.texttwo {
-    border: 2px solid green;
-
-}
-
-footer {
-    border: 2px solid purple;
 }
 
 .middle-img {
-    border: 2px solid pink;
-    padding: 4px;
+
 }
 
-.logo {
-    border: 2px solid black;
-    padding: 4px;
-    
+.texttwo {
+    display: flex;
+    justify-content: stretch;
 }
+
+
+
